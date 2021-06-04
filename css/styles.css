@@ -1043,4 +1043,10 @@ img {
   background-origin: border-box;
 }
 
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+}
 /* end form */
