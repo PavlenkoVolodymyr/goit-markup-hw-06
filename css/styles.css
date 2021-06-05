@@ -660,7 +660,7 @@ img {
 
 .footer-input:hover,
 .footer-input:focus {
-  border: 1 px solid var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .submit-btn {
