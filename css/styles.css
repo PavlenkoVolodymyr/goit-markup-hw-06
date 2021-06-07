@@ -789,8 +789,8 @@ img {
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-item:hover .text-overlay,
-.service-item:focus .text-overlay {
+.service-link:hover .text-overlay,
+.service-link:focus .text-overlay {
   opacity: 1;
   transform: translateY(0);
 }
