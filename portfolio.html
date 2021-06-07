@@ -215,7 +215,7 @@
             </li>
 
             <li class="service-item">
-              <a class="service-link"  href="">
+              <a class="service-link" href="">
                 <div class="jpg-product">
                   <img
                     class="service-jpg"
@@ -387,12 +387,19 @@
 
         <form class="mailings" name="mailings">
           <p class="footer-text">Подпишитесь на рассылку</p>
-          <label for="mail" class="footer-label">
-          <input type="mail" class="footer-input" name="mail" id="mail" placeholder="E-mail">
-        </label>
-          <button class="submit-btn" type="submit">Подписаться<svg class="footer-btn-icon"><use href="./images/icons.svg#icon-telegram"></svg>
-        </button>
+          <label class="footer-label">
+            <input
+              type="email"
+              class="footer-input"
+              name="email"
+              placeholder="E-mail"
+            />
           </label>
+          <button class="submit-btn" type="submit">
+            Подписаться<svg class="footer-btn-icon">
+              <use href="./images/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </footer>
